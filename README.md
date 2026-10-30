@@ -36,10 +36,28 @@ Then scan port 8000 and it should show as open.
 ## Example output
 
 ```
+PS C:\Users\Asus\Music>    python scanner.py 127.0.0.1 -p 1-10000
 Scanning 127.0.0.1 (127.0.0.1) ...
+Port 135   OPEN  (unknown)
+Port 445   OPEN  (unknown)
+Port 1042  OPEN  (unknown)
+Port 1043  OPEN  (unknown)
+Port 5040  OPEN  (unknown)
+Port 6666  OPEN  (unknown)
+Port 7680  OPEN  (unknown)
+Port 7778  OPEN  (unknown)
 Port 8000  OPEN  (unknown)
+Port 8080  OPEN  (unknown)
+Port 9012  OPEN  (unknown)
+Port 9013  OPEN  (unknown)
 
-Done. 1 open port(s) in 1.12s
+Done. 12 open port(s) in 51.36s
+PS C:\Users\Asus\Music>
+
+
+<img width="607" height="507" alt="Screenshot 2026-10-30 130143" src="https://github.com/user-attachments/assets/ed742bd6-64e8-412a-98cb-c8c99c4597dd" />
+
+
 ```
 
 > Replace this with the output (or a screenshot) from your own run.
