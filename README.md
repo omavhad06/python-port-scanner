@@ -55,9 +55,6 @@ Done. 12 open port(s) in 51.36s
 PS C:\Users\Asus\Music>
 
 
-<img width="607" height="507" alt="Screenshot 2026-10-30 130143" src="https://github.com/user-attachments/assets/ed742bd6-64e8-412a-98cb-c8c99c4597dd" />
-
-
 ```
 
 > Replace this with the output (or a screenshot) from your own run.
