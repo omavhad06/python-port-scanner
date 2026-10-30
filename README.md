@@ -54,11 +54,34 @@ Port 9013  OPEN  (unknown)
 Done. 12 open port(s) in 51.36s
 PS C:\Users\Asus\Music>
 
+PS C:\Users\Asus\Music>    nmap -sT -p 1-10000 127.0.0.1
+WARNING: Could not import all necessary Npcap functions. You may need to upgrade to the latest version from https://npcap.com. Resorting to connect() mode -- Nmap may not function completely
+Starting Nmap 7.993 ( https://nmap.org ) at 2026-10-30 11:37 +0530
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00083s latency).
+Not shown: 9987 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE
+135/tcp  open     msrpc
+137/tcp  filtered netbios-ns
+445/tcp  open     microsoft-ds
+1042/tcp open     afrog
+1043/tcp open     boinc
+5040/tcp open     unknown
+6666/tcp open     irc
+7680/tcp open     pando-pub
+7778/tcp open     interwise
+8000/tcp open     http-alt
+8080/tcp open     http-proxy
+9012/tcp open     unknown
+9013/tcp open     unknown
 
+Nmap done: 1 IP address (1 host up) scanned in 1.10 seconds
+PS C:\Users\Asus\Music>
 
 
 ```
-<img width="607" height="507" alt="Screenshot 2026-10-30 130143" src="https://github.com/user-attachments/assets/e40db828-d9e0-4b06-b677-5199c9221c07" />
+<img width="1917" height="1140" alt="Screenshot 2026-10-30 113851" src="https://github.com/user-attachments/assets/b0ae9833-eb18-4b4b-a8dc-8de917ea31d1" />
+
 
 
 ## What I learned
